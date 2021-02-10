@@ -1,8 +1,0 @@
-#include <stdio.h>
-/**
- *main - prints the word holberton
- *Return: 0 for success
- */
-int main(void)
-{
-  char str[] = "Holberton";

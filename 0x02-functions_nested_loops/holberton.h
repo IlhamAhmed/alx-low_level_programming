@@ -5,4 +5,9 @@
  * @c: The character to print
  */
 int _putchar(char c);
+/**
+ * print_alphabet - prints the alphabet in lowercase
+ * void: takes no parameter
+ */
+void print_alphabet(void);
 #endif

@@ -1,5 +1,6 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
+int is_prime(int n, int i);
 int is_pal(char *s, int i, int j);
 int is_palindrome(char *s);
 int is_prime_number(int n);

@@ -11,8 +11,8 @@ char *_strcat(char *dest, char *src)
 	int i;
 	int len2;
 
-	len2 = strLen(src);
-	len = strLen(dest);
+	len2 = 0;
+	len = 0;
 	for (i = 0; i < len2; i++)
 	{
 		dest[len] = src[i];
@@ -20,20 +20,4 @@ char *_strcat(char *dest, char *src)
 	}
 	dest[len] = '\0';
 	return (dest);
-}
-/**
- *strLen - finds length of a string
- *@c: takes a string
- *Return: int
- */
-int strLen(char *c)
-{
-	int i;
-
-	i = 0;
-	while (c[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
 }

@@ -1,5 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
+int idx_num_starts(char *s);
+int find_sign(char *s);
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);

@@ -1,0 +1,7 @@
+#include "function_pointers.h"
+/**
+ *print_name - prints a name
+ *@name: take the name
+ *@f: take a pointer to a function
+ *Return: void
+ */
